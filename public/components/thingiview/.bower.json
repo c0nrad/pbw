@@ -1,0 +1,13 @@
+{
+  "name": "thingiview",
+  "_cacheHeaders": {
+    "ETag": "\"da3059e37d2fc6bdc06a8b5d2809a4ad\"",
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "_release": "e-tag:da3059e37",
+  "main": "index.js",
+  "_source": "https://github.com/tbuser/thingiview.js",
+  "_target": "*",
+  "_originalSource": "https://github.com/tbuser/thingiview.js",
+  "_direct": true
+}
