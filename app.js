@@ -5,6 +5,13 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+var mongoose = require('mongoose');
+
+var mongoUri = process.env.MONGOLAB_URI || process.env.MONGOHQ_URL || 'mongodb://localhost/pbw';
+mongoose.connect(mongoUri);
+
+var Person = require('./models/person');
+
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
